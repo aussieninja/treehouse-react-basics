@@ -1,12 +1,12 @@
-const title = <h1>My First React Element</h1>;
-const desc = <p>I just learned out to create a React node and render it into the DOM</p>;
+import React from 'react';
+import { render } from 'react-dom';
+import Example from './Example';
 
-const header = React.createElement(
-  'header',
-   null,
-   title,
-   desc
+const App = () => (
+  <Example />
 );
+
+render(<App />, document.getElementById('root'));
 
 
 ReactDOM.render(
