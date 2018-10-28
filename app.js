@@ -1,15 +1,14 @@
-import React from 'react';
-import { render } from 'react-dom';
-import Example from './Example';
-
-const App = () => (
-  <Example />
-);
-
-render(<App />, document.getElementById('root'));
-
-
-ReactDOM.render(
-  header,
-  document.getElementById('root')
-);
+const desc = <p>I just learned out to create a React node and render it into the DOM</p>;
+ const header = React.createElement(
+  'header'
+  'header',
+   null,
+   title,
+   desc
+ );
+ 
+ 
+ ReactDOM.render(
+   header,
+   document.getElementById('root')
+ );
